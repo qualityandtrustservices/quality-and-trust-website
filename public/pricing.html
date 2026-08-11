@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rates &amp; Inclusions — Quality and Trust Services</title>
+<meta name="description" content="Full rate sheet for Airbnb turnover, deep cleaning, post-construction, recurring, residential and commercial cleaning. What is included, what is an add-on, where minimums start.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@200;300;400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#071a33;--ink2:#0a2140;--off:#f4f8fc;
+  --dim:rgba(244,248,252,.66);--faint:rgba(244,248,252,.38);
+  --gold:#7cb943;--blue:#2f9be0;--line:rgba(244,248,252,.13);
+  --serif:'Poppins',system-ui,sans-serif;--sans:'Inter',system-ui,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--ink);color:var(--off);font-family:var(--sans);font-weight:300;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.serif{font-family:var(--serif);font-weight:600}
+.eyebrow{font-family:var(--serif);font-weight:500;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--blue)}
+
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px var(--pad);
+  border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(7,26,51,.92);
+  backdrop-filter:blur(14px);z-index:20}
+nav .brand{font-family:var(--serif);font-size:19px;letter-spacing:.2em;text-transform:uppercase}
+nav .links{display:flex;gap:22px;align-items:center}
+nav .links a{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--dim)}
+nav .links a:hover{color:var(--off)}
+nav .links a.cta{border:1px solid rgba(124,185,67,.5);padding:9px 17px;color:var(--off)}
+nav .links a.cta:hover{background:var(--gold);color:var(--ink)}
+
+header{padding:clamp(70px,12vh,140px) var(--pad) 0;max-width:1180px;margin:0 auto}
+header h1{font-size:clamp(42px,7vw,92px);line-height:1;margin:18px 0 24px}
+header p{max-width:60ch;color:var(--dim);line-height:1.8;font-size:16px}
+
+.notice{
+  max-width:1180px;margin:44px auto 0;padding:20px 24px;
+  border:1px solid rgba(124,185,67,.5);background:rgba(124,185,67,.08);
+  font-size:13px;line-height:1.8;color:var(--off);
+}
+.notice b{color:var(--gold);letter-spacing:.16em;text-transform:uppercase;font-size:11px;font-weight:500;display:block;margin-bottom:7px}
+
+main{max-width:1180px;margin:0 auto;padding:clamp(50px,8vh,90px) var(--pad) 0}
+
+.svc{border-top:1px solid var(--line);padding:52px 0}
+.svc:last-of-type{border-bottom:1px solid var(--line)}
+.svc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;flex-wrap:wrap;margin-bottom:14px}
+.svc h2{font-family:var(--serif);font-weight:600;font-size:clamp(30px,4vw,50px);line-height:1.05}
+.svc .n{font-family:var(--serif);color:var(--gold);font-size:14px;letter-spacing:.24em;margin-bottom:8px}
+.svc .price{text-align:right;flex-shrink:0}
+.svc .price .big{font-family:var(--serif);font-size:clamp(32px,4.4vw,52px);line-height:1}
+.svc .price .unit{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--faint);margin-top:8px}
+.svc .lede{font-family:'Great Vibes',cursive;font-size:30px;color:var(--blue);margin-bottom:30px;max-width:52ch;line-height:1.3}
+
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+@media(max-width:760px){.cols{grid-template-columns:1fr;gap:30px}}
+.cols h3{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--faint);margin-bottom:16px}
+.cols ul{list-style:none}
+.cols li{padding:9px 0;border-bottom:1px solid rgba(244,248,252,.07);font-size:14px;color:var(--dim);
+  display:flex;justify-content:space-between;gap:14px;line-height:1.5}
+.cols li b{color:var(--off);font-weight:400;white-space:nowrap;font-size:13px}
+.cols li::before{content:'';}
+.inc li{padding-left:20px;position:relative}
+.inc li::before{content:'—';position:absolute;left:0;color:var(--gold);opacity:.7}
+
+.tiers{margin-top:34px;border:1px solid var(--line)}
+.tiers .row{display:grid;grid-template-columns:1.4fr 1fr 1fr;border-bottom:1px solid var(--line)}
+.tiers .row:last-child{border-bottom:0}
+.tiers .row.head{background:rgba(244,248,252,.05)}
+.tiers .cell{padding:14px 18px;font-size:13px;color:var(--dim)}
+.tiers .row.head .cell{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--faint)}
+.tiers .cell:first-child{color:var(--off)}
+@media(max-width:600px){.tiers .row{grid-template-columns:1fr 1fr}.tiers .cell:nth-child(3){display:none}}
+
+.addons{max-width:1180px;margin:0 auto;padding:clamp(60px,10vh,110px) var(--pad)}
+.addons h2{font-family:var(--serif);font-weight:600;font-size:clamp(32px,4.6vw,58px);margin:16px 0 34px}
+.agrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--line)}
+.a{background:var(--ink);padding:24px 22px}
+.a .t{font-family:var(--serif);font-size:21px;margin-bottom:6px}
+.a .p{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.a .d{font-size:13px;color:var(--dim);line-height:1.7;margin-top:10px}
+
+.terms{max-width:1180px;margin:0 auto;padding:0 var(--pad) clamp(60px,10vh,110px)}
+.terms h2{font-family:var(--serif);font-weight:600;font-size:clamp(28px,4vw,46px);margin:16px 0 26px}
+.terms ol{list-style:none;counter-reset:t}
+.terms li{counter-increment:t;padding:15px 0 15px 44px;border-top:1px solid var(--line);
+  position:relative;font-size:14px;line-height:1.8;color:var(--dim);max-width:76ch}
+.terms li::before{content:counter(t,decimal-leading-zero);position:absolute;left:0;top:15px;
+  font-family:var(--serif);color:var(--gold);font-size:13px;letter-spacing:.1em}
+
+.cta{text-align:center;padding:clamp(70px,11vh,130px) var(--pad);border-top:1px solid var(--line)}
+.cta h2{font-family:var(--serif);font-weight:600;font-size:clamp(34px,5vw,64px);margin:16px 0 20px;line-height:1.05}
+.cta p{color:var(--dim);max-width:48ch;margin:0 auto 34px;line-height:1.75}
+.btn-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;padding:17px 32px;font-size:11px;letter-spacing:.26em;
+  text-transform:uppercase;border:1px solid var(--gold);transition:background .35s,color .35s}
+.btn:hover{background:var(--gold);color:#06210a}
+.btn.ghost{border-color:rgba(47,155,224,.5)}
+.btn.ghost:hover{background:var(--off);border-color:var(--off);color:var(--ink)}
+
+footer{border-top:1px solid var(--line);padding:52px var(--pad);text-align:center}
+footer .fb{font-family:var(--serif);font-size:24px;letter-spacing:.24em;text-transform:uppercase;margin-bottom:12px}
+footer .fm{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);line-height:2.2}
+
+@media print{
+  nav,.cta,.notice{display:none}
+  body{background:#fff;color:#111}
+  .svc{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="brand">Quality and Trust Services</a>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="quality-and-trust-rates.pdf" download>Download PDF</a>
+    <a href="index.html#quote" class="cta">Get a Quote</a>
+  </div>
+</nav>
+
+<header>
+  <div class="eyebrow">Rate sheet · <span id="yr2"></span></div>
+  <h1 class="serif">Rates &amp;<br>inclusions.</h1>
+  <p>This is the same document our crews work from. Every service lists what is included at the base rate, what is billed as an add-on, and where the minimum starts. If something is not on this page, it is quoted before we begin — never after.</p>
+</header>
+
+
+
+<main>
+
+  <!-- 01 -->
+  <section class="svc">
+    <div class="svc-top">
+      <div>
+        <div class="n">01</div>
+        <h2>Airbnb Cleaning</h2>
+      </div>
+      <div class="price">
+        <div class="big">$129</div>
+        <div class="unit">Starting · 1 bedroom</div>
+      </div>
+    </div>
+    <div class="lede">Between guests, same day, finished with a photo report.</div>
+    <div class="cols">
+      <div class="inc">
+        <h3>Included at base rate</h3>
+        <ul>
+          <li>Full linen strip &amp; hotel-style bed setup</li>
+          <li>Bathroom reset &amp; sanitization</li>
+          <li>Kitchen reset, dishes, appliance exteriors</li>
+          <li>All floors, sand removal, balcony sweep</li>
+          <li>Interior glass &amp; sliding door panels</li>
+          <li>Trash removal &amp; bin reset</li>
+          <li>Guest supply restock (host-provided)</li>
+          <li>Completion photo report</li>
+          <li>Damage &amp; missing item flagging</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Billed separately</h3>
+        <ul>
+          <li>Linen laundering off-site <b>$25 / set</b></li>
+          <li>Same-day rush under 3h notice <b>+35%</b></li>
+          <li>Guest-caused excessive mess <b>+$60 / hr</b></li>
+          <li>Balcony deep wash <b>$45</b></li>
+          <li>Supply purchase &amp; delivery <b>Cost +15%</b></li>
+          <li>Late checkout wait time <b>$40 / hr</b></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tiers">
+      <div class="row head"><div class="cell">Property size</div><div class="cell">Standard</div><div class="cell">With linen service</div></div>
+      <div class="row"><div class="cell">Studio</div><div class="cell">$109</div><div class="cell">$134</div></div>
+      <div class="row"><div class="cell">1 bedroom</div><div class="cell">$129</div><div class="cell">$154</div></div>
+      <div class="row"><div class="cell">2 bedrooms</div><div class="cell">$169</div><div class="cell">$209</div></div>
+      <div class="row"><div class="cell">3 bedrooms</div><div class="cell">$219</div><div class="cell">$274</div></div>
+      <div class="row"><div class="cell">4+ bedrooms</div><div class="cell">From $269</div><div class="cell">Quoted</div></div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="svc">
+    <div class="svc-top">
+      <div><div class="n">02</div><h2>Deep Cleaning</h2></div>
+      <div class="price"><div class="big">$289</div><div class="unit">Starting · up to 1,000 sq ft</div></div>
+    </div>
+    <div class="lede">Everything a regular clean never reaches. Recommended twice a year.</div>
+    <div class="cols">
+      <div class="inc">
+        <h3>Included at base rate</h3>
+        <ul>
+          <li>Inside oven, fridge &amp; freezer</li>
+          <li>Inside cabinets &amp; drawers (emptied by client)</li>
+          <li>Baseboards, door frames &amp; switch plates</li>
+          <li>Grout scrub, tile &amp; shower descaling</li>
+          <li>Vents, ceiling fans &amp; light fixtures</li>
+          <li>Window tracks &amp; sills</li>
+          <li>Behind &amp; under movable furniture</li>
+          <li>Full interior glass</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Billed separately</h3>
+        <ul>
+          <li>Exterior windows (ground floor) <b>$8 / pane</b></li>
+          <li>Carpet shampoo <b>$0.30 / sq ft</b></li>
+          <li>Upholstery cleaning <b>From $75</b></li>
+          <li>Interior wall washing <b>$0.20 / sq ft</b></li>
+          <li>Garage or storage unit <b>From $95</b></li>
+          <li>Heavy mold remediation <b>Quoted</b></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tiers">
+      <div class="row head"><div class="cell">Property size</div><div class="cell">Deep clean</div><div class="cell">Move-out variant</div></div>
+      <div class="row"><div class="cell">Up to 1,000 sq ft</div><div class="cell">$289</div><div class="cell">$339</div></div>
+      <div class="row"><div class="cell">1,000–1,800 sq ft</div><div class="cell">$389</div><div class="cell">$449</div></div>
+      <div class="row"><div class="cell">1,800–2,600 sq ft</div><div class="cell">$509</div><div class="cell">$589</div></div>
+      <div class="row"><div class="cell">2,600+ sq ft</div><div class="cell">Quoted on site</div><div class="cell">Quoted on site</div></div>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="svc">
+    <div class="svc-top">
+      <div><div class="n">03</div><h2>Post-Construction</h2></div>
+      <div class="price"><div class="big">$0.35</div><div class="unit">Per sq ft · 3-stage</div></div>
+    </div>
+    <div class="lede">Construction dust settles three times before it stops. We clean three times.</div>
+    <div class="cols">
+      <div class="inc">
+        <h3>Included at base rate</h3>
+        <ul>
+          <li>Stage 1 — rough debris &amp; material removal</li>
+          <li>Stage 2 — fine particulate, all surfaces &amp; cavities</li>
+          <li>Stage 3 — final detail once air has settled</li>
+          <li>Protective film &amp; sticker removal</li>
+          <li>Adhesive, grout haze &amp; paint fleck removal</li>
+          <li>Inside all cabinets, closets &amp; drawers</li>
+          <li>Full interior glass &amp; frame detail</li>
+          <li>HVAC vent covers &amp; fixture wipe-down</li>
+          <li>Final floor treatment by surface type</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Billed separately</h3>
+        <ul>
+          <li>Construction debris haul-away <b>Quoted</b></li>
+          <li>Exterior windows above ground floor <b>Quoted</b></li>
+          <li>Pressure washing <b>From $0.18 / sq ft</b></li>
+          <li>Floor sealing or waxing <b>From $0.40 / sq ft</b></li>
+          <li>Fourth stage after punch-list work <b>50% of base</b></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tiers">
+      <div class="row head"><div class="cell">Scope</div><div class="cell">Rate</div><div class="cell">Minimum</div></div>
+      <div class="row"><div class="cell">Full 3-stage</div><div class="cell">$0.35 / sq ft</div><div class="cell">$450</div></div>
+      <div class="row"><div class="cell">Final stage only</div><div class="cell">$0.18 / sq ft</div><div class="cell">$275</div></div>
+      <div class="row"><div class="cell">Renovation (partial)</div><div class="cell">$0.28 / sq ft</div><div class="cell">$325</div></div>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="svc">
+    <div class="svc-top">
+      <div><div class="n">04</div><h2>Regular Cleaning</h2></div>
+      <div class="price"><div class="big">$109</div><div class="unit">Per visit · biweekly</div></div>
+    </div>
+    <div class="lede">The same team, the same day, on a fixed schedule. No contract.</div>
+    <div class="cols">
+      <div class="inc">
+        <h3>Included at base rate</h3>
+        <ul>
+          <li>Kitchen &amp; bathroom sanitization</li>
+          <li>All floors vacuumed &amp; mopped</li>
+          <li>Dusting, surfaces &amp; mirrors</li>
+          <li>Beds made, trash out</li>
+          <li>Same assigned crew every visit</li>
+          <li>Fixed day &amp; time slot</li>
+          <li>Rotating focus zone each visit</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Billed separately</h3>
+        <ul>
+          <li>Laundry, wash &amp; fold <b>$30 / load</b></li>
+          <li>Interior windows <b>$45</b></li>
+          <li>Inside fridge or oven <b>$40 each</b></li>
+          <li>Additional hour on request <b>$55</b></li>
+          <li>Skipped visit under 24h notice <b>50%</b></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tiers">
+      <div class="row head"><div class="cell">Frequency</div><div class="cell">1–2 bed</div><div class="cell">3+ bed</div></div>
+      <div class="row"><div class="cell">Weekly</div><div class="cell">$99 / visit</div><div class="cell">$139 / visit</div></div>
+      <div class="row"><div class="cell">Biweekly</div><div class="cell">$109 / visit</div><div class="cell">$155 / visit</div></div>
+      <div class="row"><div class="cell">Monthly</div><div class="cell">$139 / visit</div><div class="cell">$189 / visit</div></div>
+      <div class="row"><div class="cell">First visit (deep)</div><div class="cell">Deep rate applies</div><div class="cell">Deep rate applies</div></div>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section class="svc">
+    <div class="svc-top">
+      <div><div class="n">05</div><h2>Residential</h2></div>
+      <div class="price"><div class="big">$149</div><div class="unit">Starting · one-off</div></div>
+    </div>
+    <div class="lede">Homes and condos, one-off or as needed.</div>
+    <div class="cols">
+      <div class="inc">
+        <h3>Included at base rate</h3>
+        <ul>
+          <li>Full kitchen &amp; bathroom clean</li>
+          <li>All living areas &amp; bedrooms</li>
+          <li>Floors, surfaces &amp; mirrors throughout</li>
+          <li>Beds made, trash removed</li>
+          <li>Interior glass on request</li>
+          <li>Eco-friendly products on request</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Billed separately</h3>
+        <ul>
+          <li>Move-in / move-out variant <b>+$60</b></li>
+          <li>Pet hair heavy removal <b>+$45</b></li>
+          <li>Inside fridge or oven <b>$40 each</b></li>
+          <li>Laundry, wash &amp; fold <b>$30 / load</b></li>
+          <li>Same-day booking <b>+25%</b></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tiers">
+      <div class="row head"><div class="cell">Property size</div><div class="cell">Standard</div><div class="cell">Move-out</div></div>
+      <div class="row"><div class="cell">Studio / 1 bed</div><div class="cell">$149</div><div class="cell">$209</div></div>
+      <div class="row"><div class="cell">2 bedrooms</div><div class="cell">$189</div><div class="cell">$259</div></div>
+      <div class="row"><div class="cell">3 bedrooms</div><div class="cell">$239</div><div class="cell">$319</div></div>
+      <div class="row"><div class="cell">4+ bedrooms</div><div class="cell">From $289</div><div class="cell">Quoted</div></div>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section class="svc">
+    <div class="svc-top">
+      <div><div class="n">06</div><h2>Commercial</h2></div>
+      <div class="price"><div class="big">Custom</div><div class="unit">Quoted per contract</div></div>
+    </div>
+    <div class="lede">Offices, rental buildings, common areas and small retail. After hours.</div>
+    <div class="cols">
+      <div class="inc">
+        <h3>Included at base rate</h3>
+        <ul>
+          <li>After-hours scheduling</li>
+          <li>Documented checklist every visit</li>
+          <li>Restrooms, kitchens &amp; break areas</li>
+          <li>Common areas, lobbies &amp; corridors</li>
+          <li>Desks, glass partitions &amp; touchpoints</li>
+          <li>Trash &amp; recycling handling</li>
+          <li>Single point of contact</li>
+          <li>Insured &amp; bonded crew</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Typical structure</h3>
+        <ul>
+          <li>Small office, under 2,000 sq ft <b>From $185 / visit</b></li>
+          <li>2,000–5,000 sq ft <b>From $310 / visit</b></li>
+          <li>5,000+ sq ft <b>Site visit required</b></li>
+          <li>Day porter service <b>From $28 / hr</b></li>
+          <li>Floor stripping &amp; waxing <b>Quoted</b></li>
+          <li>Window cleaning program <b>Quoted</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<section class="addons">
+  <div class="eyebrow">Add-ons</div>
+  <h2 class="serif">Available with any service.</h2>
+  <div class="agrid">
+    <div class="a"><div class="t">Interior windows</div><div class="p">$45</div><div class="d">All accessible interior glass, tracks and sills included.</div></div>
+    <div class="a"><div class="t">Balcony deep wash</div><div class="p">$45</div><div class="d">Salt residue, railing, glass panel and floor. Critical on ocean-facing units.</div></div>
+    <div class="a"><div class="t">Laundry, wash &amp; fold</div><div class="p">$30 / load</div><div class="d">On-site where a machine is available, off-site otherwise.</div></div>
+    <div class="a"><div class="t">Inside fridge or oven</div><div class="p">$40 each</div><div class="d">Included at no charge in any deep or post-construction service.</div></div>
+    <div class="a"><div class="t">Pet hair removal</div><div class="p">$45</div><div class="d">Heavy shedding, upholstery and soft furnishings.</div></div>
+    <div class="a"><div class="t">Supply restocking</div><div class="p">Cost + 15%</div><div class="d">We purchase, deliver and log guest consumables for you.</div></div>
+    <div class="a"><div class="t">Same-day booking</div><div class="p">+25%</div><div class="d">Subject to crew availability. Confirmed in writing before dispatch.</div></div>
+    <div class="a"><div class="t">Photo report</div><div class="p">Included</div><div class="d">Standard on every turnover. Available on any other service on request.</div></div>
+  </div>
+</section>
+
+<section class="terms">
+  <div class="eyebrow">The fine print</div>
+  <h2 class="serif">How we work.</h2>
+  <ol>
+    <li>Prices assume the property is in reasonable condition for its service type. If we arrive and the scope is materially different from what was booked, we call before starting — never after finishing.</li>
+    <li>Minimums apply. Any job quoting below the service minimum is billed at the minimum.</li>
+    <li>Cancellations with more than 24 hours notice are free. Under 24 hours is billed at 50%. A locked door with no access is billed in full.</li>
+    <li>Multi-property hosts receive volume pricing. Tell us how many units you manage and we build a rate against the portfolio, not the individual clean.</li>
+    <li>We are licensed, insured and bonded. Certificates are provided on request before the first service.</li>
+    <li>If something is not right, tell us within 24 hours and we come back and fix it at no charge. That is the whole guarantee — there is no form to fill out.</li>
+    <li>Rates are held for 12 months from the date on this sheet for recurring and portfolio clients.</li>
+  </ol>
+</section>
+
+<section class="cta">
+  <div class="eyebrow">Next step</div>
+  <h2 class="serif">Get a fixed price<br>for your property.</h2>
+  <p>Send us the property and the service. You get a number back, usually the same day — not a range, and not a call you have to schedule.</p>
+  <div class="btn-row">
+    <a href="index.html#quote" class="btn">Request a quote</a>
+    <a href="quality-and-trust-rates.pdf" class="btn ghost" download>Download this as PDF</a>
+  </div>
+</section>
+
+<footer>
+  <div class="fb">Quality and Trust Services</div>
+  <div class="fm">
+    Airbnb Cleaning · Deep · Post-Construction · Recurring · Residential · Commercial<br>
+    <a href="tel:+15618258973">(561) 825-8973</a> · <a href="https://wa.me/15618258972">(561) 825-8972</a> whatsapp<br>qualityandtrustservices@gmail.com · Largo, FL<br>
+    Licensed &amp; insured · © <span id="yr3"></span> Quality and Trust Services
+  </div>
+</footer>
+
+<script>
+  var y = new Date().getFullYear();
+  document.getElementById('yr2').textContent = y;
+  document.getElementById('yr3').textContent = y;
+</script>
+</body>
+</html>

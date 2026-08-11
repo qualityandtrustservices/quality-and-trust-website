@@ -1,0 +1,1 @@
+Coloque aqui os arquivos gerados na IA. Os nomes exatos estao no guia de prompts.
